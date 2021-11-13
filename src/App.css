@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#AppJsContainer {
+  scroll-snap-type: y proximity;
+  scroll-snap-type: mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Home Page */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+a.nav-link:hover {
+  background-color: #302ec8;
+}
+
+.nav-name {
+  font-size: 125%;
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
+}
+
+#homepage{
+  scroll-snap-align: center;
+  scroll-snap-align: end;
+}
+
+.home-page {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  display: block;
+  scroll-snap-align: end;
+  overflow: scroll;
+}
+
+#home-gif {
+  width: 80%;
+  height: 65%;
+  /* margin: 183px 0 0 61px; */
+  margin: 25% 50% 30% 10%;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#name {
+  font-family: "Coustard", serif;
+  margin-top: 42%;
+  font-size: 200%;
+}
+
+.website_description {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 100%;
+}
+
+#download {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#download:hover {
+  background-color: #302ec8;
+}
+
+/* Skills Page */
+
+#skills {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #ef807d 50%, #ee7a77 50%);
+  scroll-snap-align: center;
+  scroll-snap-align: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding-top: 5%;
+  margin-top: 1%;
+  overflow: scroll;
+}
+
+.skill-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skillimage {
+  height: 95%;
+  width: 70%;
+}
+
+.skillbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skill-title {
+  text-align: center;
+  font-size: 200%;
+  font-family: "Coustard", serif;
+  margin-right: 10%;
+}
+
+.progress {
+  height: auto;
+  margin: 2%;
+  width: 90%;
+}
+
+.skillname {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 150%;
+  text-align: start;
+  margin-left: 2%;
+}
+
+/* Projects Page */
+
+#projects {
+  scroll-snap-align: start;
+  background-color: #ebf2cd;
+  width: 100vw;
+  height: 280vh;
+  display: block;
+  padding-top: 5%;
+  overflow: scroll;
+}
+
+.projects-name {
+  font-family: "Coustard", serif;
+  text-align: center;
+}
+
+.projects-paragraph {
+  text-align: center;
+  font-family: "Zen Old Mincho", serif;
+  font-size: 120%;
+}
+
+.card {
+  margin: 1% 6% 3% 6%;
+  background-color: #ebf2cd;
+  width: 21.25%;
+  float: left;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  background-color: #ebf2cd;
+}
+
+.card-info {
+  background-color: #fff;
+  padding: 3% 5% 7% 5%;
+}
+
+.card-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+}
+
+button {
+  padding: 2% 3%;
+  font-family: "Railway", sans-serif;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #302ec8;
+}
+
+.project-button {
+  position: relative;
+  left: 26%;
+}
+
+/* About Page */
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  background: #d0ccff;
+  scroll-snap-align: start;
+  display: block;
+  overflow: scroll;
+}
+
+.social-media-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myphoto {
+  width: 75%;
+  height: 64%;
+  margin-top: 25%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  margin-right: 4%;
+}
+
+.socialmedia a i.fa {
+  padding: 30%;
+  font-size: 200%;
+  width: 4vw;
+  color: black;
+}
+
+.socialmedia a i.fa:hover {
+  color: #302ec8;
+}
+
+.abouttext {
+  text-align: center;
+  margin-top: 49%;
+  margin-right: 5%;
+}
+
+.aboutmetext {
+  font-size: 180%;
+  font-family: "Coustard", serif;
+  margin-bottom: 2%;
+}
+
+.somethingaboutme {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 125%;
+}
+
+.mylocation {
+  margin-top: 30%;
+}
+
+#location{
+  width: 30vw;
+  height: 60vh;
+}
+
+#location:hover {
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.location-details {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 125%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/* @media only screen and (max-width: 1500px) {
+  .home-page {
+    margin-bottom: 15%;
+  }
+} */
+
+/* @media only screen and (max-width: 1200px) {
+  .home-div {
+    margin-top: -10%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home-div {
+    margin-top: -28%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .home-div {
+    margin-top: -10%;
+  }
+} */
+/* 
+@media only screen and (min-width: 768px){
+  .home-page {
+    margin-bottom: 50%;
+    /* display: flex;
+    flex-direction: column; */
+  
+
+ 
+/*   
+  #skills{
+    margin-bottom: 15% ;
+
+  }
+} */ 
+
+@media only screen and (max-width: 360px){
+  .home-div{
+    margin-top: -170px;
+  }
+
+  #skills{
+    padding-top: 11%;
+  }
+
+  #projects{
+    padding-top: 17%;
+    height: 670vh;
+  }
+
+  .cards{
+    width: 80vw;
+    margin-left: 3%;
+  }
+
+  .card{
+    width: 80vw;
+    margin-bottom: 10%;
+  }
+
+  #about{
+    height: 210vh;
+    padding-top: 4%;
+  }
+
+  .abouttext{
+    order: 1;
+    width: 90vw;
+  }
+
+  .social-media-content{
+    order: 2;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .socialmedia a i.fa{
+    width: 15vw;
+  }
+
+  #location{
+    width: 90vw;
+    height: 40vh;
+  }
+  .location-div{
+    order: 3;
+  }
+  .location-details{
+    width: 100vw;
+}
+}
