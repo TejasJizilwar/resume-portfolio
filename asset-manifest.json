@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/resume-portfolio/static/css/main.e6e9afa0.chunk.css",
+    "main.js": "/resume-portfolio/static/js/main.d90b8922.chunk.js",
+    "main.js.map": "/resume-portfolio/static/js/main.d90b8922.chunk.js.map",
+    "runtime-main.js": "/resume-portfolio/static/js/runtime-main.68fd2ca9.js",
+    "runtime-main.js.map": "/resume-portfolio/static/js/runtime-main.68fd2ca9.js.map",
+    "static/js/2.19da3425.chunk.js": "/resume-portfolio/static/js/2.19da3425.chunk.js",
+    "static/js/2.19da3425.chunk.js.map": "/resume-portfolio/static/js/2.19da3425.chunk.js.map",
+    "static/js/3.f1d90ec8.chunk.js": "/resume-portfolio/static/js/3.f1d90ec8.chunk.js",
+    "static/js/3.f1d90ec8.chunk.js.map": "/resume-portfolio/static/js/3.f1d90ec8.chunk.js.map",
+    "index.html": "/resume-portfolio/index.html",
+    "static/css/main.e6e9afa0.chunk.css.map": "/resume-portfolio/static/css/main.e6e9afa0.chunk.css.map",
+    "static/js/2.19da3425.chunk.js.LICENSE.txt": "/resume-portfolio/static/js/2.19da3425.chunk.js.LICENSE.txt",
+    "static/media/API.9bfc2c44.png": "/resume-portfolio/static/media/API.9bfc2c44.png",
+    "static/media/About.e8e8c20e.jpg": "/resume-portfolio/static/media/About.e8e8c20e.jpg",
+    "static/media/Flipkart.f44dbf2b.png": "/resume-portfolio/static/media/Flipkart.f44dbf2b.png",
+    "static/media/Greeting.9f9a4bda.png": "/resume-portfolio/static/media/Greeting.9f9a4bda.png",
+    "static/media/Home.0c80d8d1.gif": "/resume-portfolio/static/media/Home.0c80d8d1.gif",
+    "static/media/Netflix.afe48569.png": "/resume-portfolio/static/media/Netflix.afe48569.png",
+    "static/media/Skillgif.b0d50c69.gif": "/resume-portfolio/static/media/Skillgif.b0d50c69.gif",
+    "static/media/Temp-converter.2438734d.png": "/resume-portfolio/static/media/Temp-converter.2438734d.png",
+    "static/media/Thermometer.cc47a40f.png": "/resume-portfolio/static/media/Thermometer.cc47a40f.png",
+    "static/media/WebsiteTemplate.4c4b6107.png": "/resume-portfolio/static/media/WebsiteTemplate.4c4b6107.png",
+    "static/media/bulb-on-off.6b27cc98.png": "/resume-portfolio/static/media/bulb-on-off.6b27cc98.png",
+    "static/media/runningcar.1a9f77a2.png": "/resume-portfolio/static/media/runningcar.1a9f77a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68fd2ca9.js",
+    "static/js/2.19da3425.chunk.js",
+    "static/css/main.e6e9afa0.chunk.css",
+    "static/js/main.d90b8922.chunk.js"
+  ]
+}
