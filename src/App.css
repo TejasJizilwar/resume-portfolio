@@ -43,7 +43,7 @@ a.nav-link:hover {
   scroll-snap-align: start;
   display: block;
   scroll-snap-align: end;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #home-gif {
@@ -96,7 +96,7 @@ a.nav-link:hover {
   display: block;
   padding-top: 5%;
   margin-top: 1%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .skill-image-container {
@@ -142,10 +142,10 @@ a.nav-link:hover {
   scroll-snap-align: start;
   background-color: #ebf2cd;
   width: 100vw;
-  height: 280vh;
+  height: 250vh;
   display: block;
   padding-top: 5%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .projects-name {
@@ -160,10 +160,8 @@ a.nav-link:hover {
 }
 
 .card {
-  margin: 1% 6% 3% 6%;
+  margin: 1% 6% 10% 6%;
   background-color: #ebf2cd;
-  width: 21.25%;
-  float: left;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
 }
@@ -218,7 +216,7 @@ button:hover {
   background: #d0ccff;
   scroll-snap-align: start;
   display: block;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .social-media-content{

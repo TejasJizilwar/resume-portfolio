@@ -15,7 +15,10 @@ const Projects = () => {
       <div id="projects">
         <h1 className="projects-name">Projects</h1>
         <p className="projects-paragraph">Here are some projects made by me</p>
-      <div className="cards"> 
+        <div className="container">
+          <div className="row">
+
+          <div className="cards col-md-4"> 
       <div className="card">
         <img src={Runningcar} alt="Running Car" className="card-img"/>
         <div className="card-info">
@@ -28,7 +31,7 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="cards"> 
+     <div className="cards col-md-4"> 
       <div className="card">
         <img src={Bulb} alt="Bulb" className="card-img"/>
         <div className="card-info">
@@ -41,7 +44,7 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="cards"> 
+     <div className="cards col-md-4"> 
       <div className="card">
         <img src={Netflix} alt="Netflix" className="card-img"/>
         <div className="card-info">
@@ -54,46 +57,54 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="cards"> 
-      <div className="card">
-        <img src={Flipkart} alt="Flipkart" className="card-img"/>
-        <div className="card-info">
-          <h3 className="card-title"> Flipkart Clone Template</h3>
-          <p className="card-category">Basic template design of Flipkart which is responsive </p>
-          <a href="https://tejasjizilwar.github.io/Flipkart-clone-website/" target="__blank">
-             <button className="project-button"> Open Now</button>
-          </a>
-        </div>
-      </div>
-     </div>
+          </div>
 
-     <div className="cards"> 
-      <div className="card">
-        <img src={Greeting} alt="Greeting" className="card-img"/>
-        <div className="card-info">
-          <h3 className="card-title">Greeting Website</h3>
-          <p className="card-category"> Its a Greeting Website that says Good morning, good afternoon or good evening, depending upon the time they visit the website.</p>
-          <a href="https://tejasjizilwar.github.io/Greeting-Website/" target="__blank">
-             <button className="project-button"> Open Now</button>
-          </a>
-        </div>
-      </div>
-     </div>
+          
+     <div className="row">
 
-     <div className="cards"> 
-      <div className="card">
-        <img src={API} alt="API" className="card-img"/>
-        <div className="card-info">
-          <h3 className="card-title">know your Personality - API Project</h3>
-          <p className="card-category">This website will show your personality based on your name with the help of API. (Just for fun)</p>
-          <a href="https://tejasjizilwar.github.io/AvatarAPI/" target="__blank">
-             <button className="project-button"> Open Now</button>
-          </a>
-        </div>
-      </div>
-     </div>
+<div className="cards col-md-4"> 
+ <div className="card">
+   <img src={Flipkart} alt="Flipkart" className="card-img"/>
+   <div className="card-info">
+     <h3 className="card-title"> Flipkart Clone Template</h3>
+     <p className="card-category">Basic template design of Flipkart which is responsive </p>
+     <a href="https://tejasjizilwar.github.io/Flipkart-clone-website/" target="__blank">
+        <button className="project-button"> Open Now</button>
+     </a>
+   </div>
+ </div>
+</div>
 
-     <div className="cards"> 
+<div className="cards col-md-4"> 
+ <div className="card">
+   <img src={Greeting} alt="Greeting" className="card-img"/>
+   <div className="card-info">
+     <h3 className="card-title">Greeting Website</h3>
+     <p className="card-category"> Its a Greeting Website that says Good morning, good afternoon or good evening, depending upon the time they visit the website.</p>
+     <a href="https://tejasjizilwar.github.io/Greeting-Website/" target="__blank">
+        <button className="project-button"> Open Now</button>
+     </a>
+   </div>
+ </div>
+</div>
+
+<div className="cards col-md-4"> 
+ <div className="card">
+   <img src={API} alt="API" className="card-img"/>
+   <div className="card-info">
+     <h3 className="card-title">know your Personality - API Project</h3>
+     <p className="card-category">This website will show your personality based on your name with the help of API. (Just for fun)</p>
+     <a href="https://tejasjizilwar.github.io/AvatarAPI/" target="__blank">
+        <button className="project-button"> Open Now</button>
+     </a>
+   </div>
+ </div>
+</div>
+
+</div>
+
+<div className="row">
+<div className="cards col-md-4"> 
       <div className="card">
         <img src={Thermometer} alt="Thermometer" className="card-img"/>
         <div className="card-info">
@@ -106,7 +117,7 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="cards"> 
+     <div className="cards col-md-4"> 
       <div className="card">
         <img src={TempConverter} alt="TempConverter" className="card-img"/>
         <div className="card-info">
@@ -119,7 +130,7 @@ const Projects = () => {
       </div>
      </div>
 
-     <div className="cards"> 
+     <div className="cards col-md-4"> 
       <div className="card">
         <img src={WebsiteTemplate} alt="WebsiteTemplate" className="card-img"/>
         <div className="card-info">
@@ -134,6 +145,13 @@ const Projects = () => {
 
     
       </div>
+</div>
+        </div>
+     
+
+     
+
+    
     </>
   );
 };
