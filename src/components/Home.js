@@ -22,7 +22,7 @@ const Home = () => {
                   and work experiences of Web Development
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1o8e7JEVLsG04l99KUGqdDI7J3OJr0C_H/view?usp=sharing"
+                  href="https://drive.google.com/file/d/15kx0G0tj9JgrnZ5Mt_xTiuwTHhj4N8Ol/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
